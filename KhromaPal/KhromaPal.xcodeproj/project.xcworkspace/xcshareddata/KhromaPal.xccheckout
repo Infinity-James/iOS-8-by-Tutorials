@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E8539670-3616-45F8-912C-977661C6A12A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KhromaPal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1D7E7543ABA52EF67237E256C67D983760CA6559</key>
+		<string>ssh://bitbucket.org/sammyd/khromapal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>swift/KhromaPal/KhromaPal.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1D7E7543ABA52EF67237E256C67D983760CA6559</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/sammyd/khromapal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1D7E7543ABA52EF67237E256C67D983760CA6559</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D7E7543ABA52EF67237E256C67D983760CA6559</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KhromaPal</string>
+		</dict>
+	</array>
+</dict>
+</plist>

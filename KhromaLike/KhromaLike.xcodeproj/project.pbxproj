@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AD3FE091B2B063C006369EC /* ColorSwatchCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FDF11B2B063C006369EC /* ColorSwatchCollectionViewController.swift */; };
+		1AD3FE0A1B2B063C006369EC /* ColorSwatchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FDF21B2B063C006369EC /* ColorSwatchDetailViewController.swift */; };
+		1AD3FE0B1B2B063C006369EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FDF31B2B063C006369EC /* ViewController.swift */; };
+		1AD3FE0C1B2B063C006369EC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3FDF51B2B063C006369EC /* .gitkeep */; };
+		1AD3FE0D1B2B063C006369EC /* ColorSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FDF61B2B063C006369EC /* ColorSwatch.swift */; };
+		1AD3FE0E1B2B063C006369EC /* ColorSwatchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FDF71B2B063C006369EC /* ColorSwatchList.swift */; };
+		1AD3FE0F1B2B063C006369EC /* NumberFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FDF81B2B063C006369EC /* NumberFormatting.swift */; };
+		1AD3FE101B2B063C006369EC /* ColorList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3FDFA1B2B063C006369EC /* ColorList.plist */; };
+		1AD3FE111B2B063C006369EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3FDFB1B2B063C006369EC /* Images.xcassets */; };
+		1AD3FE121B2B063C006369EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FDFD1B2B063C006369EC /* AppDelegate.swift */; };
+		1AD3FE141B2B063C006369EC /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FE021B2B063C006369EC /* Colours.m */; };
+		1AD3FE151B2B063C006369EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3FE041B2B063C006369EC /* Main.storyboard */; };
+		1AD3FE161B2B063C006369EC /* ColorSwatchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FE071B2B063C006369EC /* ColorSwatchCollectionViewCell.swift */; };
+		1AD3FE171B2B063C006369EC /* SwatchSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FE081B2B063C006369EC /* SwatchSelection.swift */; };
+		1AD3FE1D1B2B0649006369EC /* KhromaLikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD3FE1A1B2B0649006369EC /* KhromaLikeTests.swift */; };
+		1AD91FCE1B2DE92A00D6483E /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD91FCD1B2DE92A00D6483E /* PaddedLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		223285F6196350FF0026C074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223285DB196350FF0026C074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 223285E2196350FF0026C074;
+			remoteInfo = KhromaLike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AD3FDF11B2B063C006369EC /* ColorSwatchCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSwatchCollectionViewController.swift; sourceTree = "<group>"; };
+		1AD3FDF21B2B063C006369EC /* ColorSwatchDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSwatchDetailViewController.swift; sourceTree = "<group>"; };
+		1AD3FDF31B2B063C006369EC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AD3FDF51B2B063C006369EC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1AD3FDF61B2B063C006369EC /* ColorSwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSwatch.swift; sourceTree = "<group>"; };
+		1AD3FDF71B2B063C006369EC /* ColorSwatchList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSwatchList.swift; sourceTree = "<group>"; };
+		1AD3FDF81B2B063C006369EC /* NumberFormatting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberFormatting.swift; sourceTree = "<group>"; };
+		1AD3FDFA1B2B063C006369EC /* ColorList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ColorList.plist; sourceTree = "<group>"; };
+		1AD3FDFB1B2B063C006369EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AD3FDFD1B2B063C006369EC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AD3FDFE1B2B063C006369EC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD3FDFF1B2B063C006369EC /* KhromaLike-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KhromaLike-Bridging-Header.h"; sourceTree = "<group>"; };
+		1AD3FE011B2B063C006369EC /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		1AD3FE021B2B063C006369EC /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		1AD3FE051B2B063C006369EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AD3FE071B2B063C006369EC /* ColorSwatchCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSwatchCollectionViewCell.swift; sourceTree = "<group>"; };
+		1AD3FE081B2B063C006369EC /* SwatchSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwatchSelection.swift; sourceTree = "<group>"; };
+		1AD3FE1A1B2B0649006369EC /* KhromaLikeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KhromaLikeTests.swift; sourceTree = "<group>"; };
+		1AD3FE1C1B2B0649006369EC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD91FCD1B2DE92A00D6483E /* PaddedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		223285E3196350FF0026C074 /* KhromaLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhromaLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		223285F5196350FF0026C074 /* KhromaLikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KhromaLikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		223285E0196350FF0026C074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223285F2196350FF0026C074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD3FDEF1B2B063C006369EC /* KhromaLike */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3FDF01B2B063C006369EC /* Controller */,
+				1AD3FDF41B2B063C006369EC /* Model */,
+				1AD3FDF91B2B063C006369EC /* Resources */,
+				1AD3FDFC1B2B063C006369EC /* Supporting-Files */,
+				1AD3FE001B2B063C006369EC /* Third-Party */,
+				1AD3FE031B2B063C006369EC /* User-Interface */,
+				1AD3FE061B2B063C006369EC /* View */,
+			);
+			path = KhromaLike;
+			sourceTree = "<group>";
+		};
+		1AD3FDF01B2B063C006369EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3FDF11B2B063C006369EC /* ColorSwatchCollectionViewController.swift */,
+				1AD3FDF21B2B063C006369EC /* ColorSwatchDetailViewController.swift */,
+				1AD3FDF31B2B063C006369EC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD3FDF41B2B063C006369EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3FDF51B2B063C006369EC /* .gitkeep */,
+				1AD3FDF61B2B063C006369EC /* ColorSwatch.swift */,
+				1AD3FDF71B2B063C006369EC /* ColorSwatchList.swift */,
+				1AD3FDF81B2B063C006369EC /* NumberFormatting.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AD3FDF91B2B063C006369EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3FDFA1B2B063C006369EC /* ColorList.plist */,
+				1AD3FDFB1B2B063C006369EC /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1AD3FDFC1B2B063C006369EC /* Supporting-Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3FDFD1B2B063C006369EC /* AppDelegate.swift */,
+				1AD3FDFE1B2B063C006369EC /* Info.plist */,
+				1AD3FDFF1B2B063C006369EC /* KhromaLike-Bridging-Header.h */,
+			);
+			path = "Supporting-Files";
+			sourceTree = "<group>";
+		};
+		1AD3FE001B2B063C006369EC /* Third-Party */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3FE011B2B063C006369EC /* Colours.h */,
+				1AD3FE021B2B063C006369EC /* Colours.m */,
+			);
+			path = "Third-Party";
+			sourceTree = "<group>";
+		};
+		1AD3FE031B2B063C006369EC /* User-Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3FE041B2B063C006369EC /* Main.storyboard */,
+			);
+			path = "User-Interface";
+			sourceTree = "<group>";
+		};
+		1AD3FE061B2B063C006369EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AD91FCD1B2DE92A00D6483E /* PaddedLabel.swift */,
+				1AD3FE071B2B063C006369EC /* ColorSwatchCollectionViewCell.swift */,
+				1AD3FE081B2B063C006369EC /* SwatchSelection.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AD3FE181B2B0649006369EC /* KhromaLikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3FE191B2B0649006369EC /* Source */,
+				1AD3FE1B1B2B0649006369EC /* Supporting-Files */,
+			);
+			path = KhromaLikeTests;
+			sourceTree = "<group>";
+		};
+		1AD3FE191B2B0649006369EC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3FE1A1B2B0649006369EC /* KhromaLikeTests.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1AD3FE1B1B2B0649006369EC /* Supporting-Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3FE1C1B2B0649006369EC /* Info.plist */,
+			);
+			path = "Supporting-Files";
+			sourceTree = "<group>";
+		};
+		223285DA196350FF0026C074 = {
+			isa = PBXGroup;
+			children = (
+				1AD3FDEF1B2B063C006369EC /* KhromaLike */,
+				1AD3FE181B2B0649006369EC /* KhromaLikeTests */,
+				223285E4196350FF0026C074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		223285E4196350FF0026C074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				223285E3196350FF0026C074 /* KhromaLike.app */,
+				223285F5196350FF0026C074 /* KhromaLikeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		223285E2196350FF0026C074 /* KhromaLike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 223285FF196350FF0026C074 /* Build configuration list for PBXNativeTarget "KhromaLike" */;
+			buildPhases = (
+				223285DF196350FF0026C074 /* Sources */,
+				223285E0196350FF0026C074 /* Frameworks */,
+				223285E1196350FF0026C074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KhromaLike;
+			productName = KhromaLike;
+			productReference = 223285E3196350FF0026C074 /* KhromaLike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		223285F4196350FF0026C074 /* KhromaLikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22328602196350FF0026C074 /* Build configuration list for PBXNativeTarget "KhromaLikeTests" */;
+			buildPhases = (
+				223285F1196350FF0026C074 /* Sources */,
+				223285F2196350FF0026C074 /* Frameworks */,
+				223285F3196350FF0026C074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				223285F7196350FF0026C074 /* PBXTargetDependency */,
+			);
+			name = KhromaLikeTests;
+			productName = KhromaLikeTests;
+			productReference = 223285F5196350FF0026C074 /* KhromaLikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		223285DB196350FF0026C074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = RayWenderlich;
+				TargetAttributes = {
+					223285E2196350FF0026C074 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					223285F4196350FF0026C074 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 223285E2196350FF0026C074;
+					};
+				};
+			};
+			buildConfigurationList = 223285DE196350FF0026C074 /* Build configuration list for PBXProject "KhromaLike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 223285DA196350FF0026C074;
+			productRefGroup = 223285E4196350FF0026C074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				223285E2196350FF0026C074 /* KhromaLike */,
+				223285F4196350FF0026C074 /* KhromaLikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		223285E1196350FF0026C074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD3FE151B2B063C006369EC /* Main.storyboard in Resources */,
+				1AD3FE111B2B063C006369EC /* Images.xcassets in Resources */,
+				1AD3FE101B2B063C006369EC /* ColorList.plist in Resources */,
+				1AD3FE0C1B2B063C006369EC /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223285F3196350FF0026C074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223285DF196350FF0026C074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD3FE171B2B063C006369EC /* SwatchSelection.swift in Sources */,
+				1AD3FE161B2B063C006369EC /* ColorSwatchCollectionViewCell.swift in Sources */,
+				1AD3FE0B1B2B063C006369EC /* ViewController.swift in Sources */,
+				1AD3FE0E1B2B063C006369EC /* ColorSwatchList.swift in Sources */,
+				1AD3FE0D1B2B063C006369EC /* ColorSwatch.swift in Sources */,
+				1AD3FE141B2B063C006369EC /* Colours.m in Sources */,
+				1AD3FE0F1B2B063C006369EC /* NumberFormatting.swift in Sources */,
+				1AD3FE121B2B063C006369EC /* AppDelegate.swift in Sources */,
+				1AD3FE091B2B063C006369EC /* ColorSwatchCollectionViewController.swift in Sources */,
+				1AD91FCE1B2DE92A00D6483E /* PaddedLabel.swift in Sources */,
+				1AD3FE0A1B2B063C006369EC /* ColorSwatchDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		223285F1196350FF0026C074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD3FE1D1B2B0649006369EC /* KhromaLikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		223285F7196350FF0026C074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 223285E2196350FF0026C074 /* KhromaLike */;
+			targetProxy = 223285F6196350FF0026C074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AD3FE041B2B063C006369EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AD3FE051B2B063C006369EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		223285FD196350FF0026C074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		223285FE196350FF0026C074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22328600196350FF0026C074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KhromaLike/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KhromaLike/Supporting-Files/KhromaLike-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22328601196350FF0026C074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/KhromaLike/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KhromaLike/Supporting-Files/KhromaLike-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		22328603196350FF0026C074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KhromaLike.app/KhromaLike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KhromaLikeTests/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		22328604196350FF0026C074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KhromaLike.app/KhromaLike";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KhromaLikeTests/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		223285DE196350FF0026C074 /* Build configuration list for PBXProject "KhromaLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				223285FD196350FF0026C074 /* Debug */,
+				223285FE196350FF0026C074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		223285FF196350FF0026C074 /* Build configuration list for PBXNativeTarget "KhromaLike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22328600196350FF0026C074 /* Debug */,
+				22328601196350FF0026C074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22328602196350FF0026C074 /* Build configuration list for PBXNativeTarget "KhromaLikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22328603196350FF0026C074 /* Debug */,
+				22328604196350FF0026C074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 223285DB196350FF0026C074 /* Project object */;
+}

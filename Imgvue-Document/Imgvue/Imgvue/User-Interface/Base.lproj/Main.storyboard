@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.8" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="y5O-0O-C9F">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
+    </dependencies>
+    <scenes>
+        <!--Thumbnail Collection View Controller-->
+        <scene sceneID="KAZ-Pz-vpR">
+            <objects>
+                <collectionViewController id="wqX-sd-ub5" customClass="ThumbnailCollectionViewController" customModule="UIWidgets" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="GY7-JI-hkh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="DQ2-Ce-Eed">
+                            <size key="itemSize" width="80" height="80"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ThumbCell" id="Nl5-BX-0ee" customClass="ThumbnailCell" customModule="UIWidgets">
+                                <rect key="frame" x="0.0" y="0.0" width="104" height="104"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CZ8-Fe-80H">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <color key="backgroundColor" red="0.1294117719" green="0.67450982329999998" blue="0.80392158030000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="CZ8-Fe-80H" secondAttribute="bottom" id="OQj-Qk-YPj"/>
+                                    <constraint firstItem="CZ8-Fe-80H" firstAttribute="leading" secondItem="Nl5-BX-0ee" secondAttribute="leading" id="TmB-yd-Acg"/>
+                                    <constraint firstItem="CZ8-Fe-80H" firstAttribute="top" secondItem="Nl5-BX-0ee" secondAttribute="top" id="gAS-nM-i8g"/>
+                                    <constraint firstAttribute="trailing" secondItem="CZ8-Fe-80H" secondAttribute="trailing" id="x4B-8f-R7v"/>
+                                </constraints>
+                                <size key="customSize" width="80" height="80"/>
+                                <connections>
+                                    <outlet property="imageView" destination="CZ8-Fe-80H" id="TA0-aP-lyp"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="wqX-sd-ub5" id="GXc-Ml-bRj"/>
+                            <outlet property="delegate" destination="wqX-sd-ub5" id="rEZ-r5-PZ2"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="g4c-rO-vYX"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i4E-Ab-wFx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1793" y="-104"/>
+        </scene>
+        <!--Upload Chooser View Controller-->
+        <scene sceneID="lD8-Ex-2mN">
+            <objects>
+                <viewController id="SXT-W7-bri" customClass="UploadChooserViewController" customModule="UIWidgets" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ipA-Jj-P4c"/>
+                        <viewControllerLayoutGuide type="bottom" id="LyR-a5-xPu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dbj-zI-XxF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWV-65-UE8">
+                                <rect key="frame" x="115" y="57" width="90" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8cm-VA-1p6"/>
+                                </constraints>
+                                <state key="normal" title="Select Image">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectImageToUpload:" destination="SXT-W7-bri" eventType="touchUpInside" id="ZU5-S0-WHw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload images to S3." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="7KV-B9-hSd">
+                                <rect key="frame" x="20" y="95" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="C3r-tE-eNh">
+                                <rect key="frame" x="20" y="129" width="280" height="2"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="C3r-tE-eNh" firstAttribute="leading" secondItem="7KV-B9-hSd" secondAttribute="leading" id="0dB-W0-GzB"/>
+                            <constraint firstAttribute="trailing" secondItem="7KV-B9-hSd" secondAttribute="trailing" constant="20" symbolic="YES" id="1I9-LZ-5Sl"/>
+                            <constraint firstItem="OWV-65-UE8" firstAttribute="centerX" secondItem="7KV-B9-hSd" secondAttribute="centerX" id="3wA-W5-Xhu"/>
+                            <constraint firstItem="7KV-B9-hSd" firstAttribute="top" secondItem="OWV-65-UE8" secondAttribute="bottom" constant="8" symbolic="YES" id="Rtn-UQ-YKZ"/>
+                            <constraint firstItem="OWV-65-UE8" firstAttribute="top" secondItem="ipA-Jj-P4c" secondAttribute="bottom" constant="37" id="fND-3y-jw7"/>
+                            <constraint firstItem="7KV-B9-hSd" firstAttribute="leading" secondItem="dbj-zI-XxF" secondAttribute="leading" constant="20" symbolic="YES" id="rgd-lK-4GE"/>
+                            <constraint firstItem="7KV-B9-hSd" firstAttribute="trailing" secondItem="C3r-tE-eNh" secondAttribute="trailing" id="s2F-LJ-noG"/>
+                            <constraint firstItem="C3r-tE-eNh" firstAttribute="top" secondItem="7KV-B9-hSd" secondAttribute="bottom" constant="13" id="yH5-ha-L2Q"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" image="upload-tab-icon2" id="e4c-WE-zIf"/>
+                    <connections>
+                        <outlet property="uploadProgressView" destination="C3r-tE-eNh" id="vEd-DY-v3p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7kb-xj-fEq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1053" y="590"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="bc3-om-GiK">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="y5O-0O-C9F" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5eU-eR-isV">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8bg-Zc-n7h" kind="relationship" relationship="viewControllers" id="fKI-QC-FcI"/>
+                        <segue destination="SXT-W7-bri" kind="relationship" relationship="viewControllers" id="a6o-y8-Gjw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rNA-jD-gPV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="236"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BWD-Jq-B95">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="8bg-Zc-n7h" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" image="recent-tab-icon" id="USL-d8-kwv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DUh-Ye-7XM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wqX-sd-ub5" kind="relationship" relationship="rootViewController" id="v6k-Ts-YLe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qrD-qE-tNc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1053" y="-668"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="recent-tab-icon" width="25" height="25"/>
+        <image name="upload-tab-icon2" width="30" height="28"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination">
+            <size key="portraitSize" width="320" height="480"/>
+            <size key="landscapeSize" width="480" height="320"/>
+        </simulatedScreenMetrics>
+    </simulatedMetricsContainer>
+</document>

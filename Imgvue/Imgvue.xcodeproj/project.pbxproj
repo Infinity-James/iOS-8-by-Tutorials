@@ -1,0 +1,1303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A843FB31B4B256C001A32F3 /* Imgvue Upload.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A843FA91B4B256C001A32F3 /* Imgvue Upload.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A843FBE1B4B25D5001A32F3 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A843FB91B4B25D5001A32F3 /* ShareViewController.swift */; };
+		1A843FC01B4B25D5001A32F3 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A843FBD1B4B25D5001A32F3 /* MainInterface.storyboard */; };
+		1A843FC21B4B2685001A32F3 /* ImgvueKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839576491969275D0033B974 /* ImgvueKit.framework */; };
+		1A843FC51B4C83AF001A32F3 /* Extension-Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A843FC41B4C83AF001A32F3 /* Extension-Images.xcassets */; };
+		1AA30DBB1B51900100A85C63 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA30DBA1B51900100A85C63 /* PhotosUI.framework */; };
+		1AA30DBD1B51900100A85C63 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA30DBC1B51900100A85C63 /* Photos.framework */; };
+		1AA30DC71B51900100A85C63 /* Imgvue Filters.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1AA30DB81B51900100A85C63 /* Imgvue Filters.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1AA30DD21B51909800A85C63 /* PhotoEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA30DCD1B51909800A85C63 /* PhotoEditingViewController.swift */; };
+		1AA30DD41B51909800A85C63 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA30DD11B51909800A85C63 /* MainInterface.storyboard */; };
+		1AE47D6F1B46B70700331213 /* ImgvueKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D6C1B46B70700331213 /* ImgvueKitTests.swift */; };
+		1AE47D7C1B46B71100331213 /* ImageFilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D731B46B71100331213 /* ImageFilterService.swift */; };
+		1AE47D7D1B46B71100331213 /* ImgurImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D741B46B71100331213 /* ImgurImage.swift */; };
+		1AE47D7E1B46B71100331213 /* ImgurService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D751B46B71100331213 /* ImgurService.swift */; };
+		1AE47D7F1B46B71100331213 /* ImgvueKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE47D761B46B71100331213 /* ImgvueKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE47D811B46B71100331213 /* SavedImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D7A1B46B71100331213 /* SavedImageService.swift */; };
+		1AE47D821B46B71100331213 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D7B1B46B71100331213 /* SwiftyJSON.swift */; };
+		1AE47D881B46B72000331213 /* ImgvueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D851B46B72000331213 /* ImgvueTests.swift */; };
+		1AE47DBC1B46B72C00331213 /* HotGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D8C1B46B72C00331213 /* HotGalleryViewController.swift */; };
+		1AE47DBD1B46B72C00331213 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D8D1B46B72C00331213 /* ImageViewController.swift */; };
+		1AE47DBE1B46B72C00331213 /* ImgurImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D8E1B46B72C00331213 /* ImgurImageViewController.swift */; };
+		1AE47DBF1B46B72C00331213 /* ProgressNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D8F1B46B72C00331213 /* ProgressNavigationController.swift */; };
+		1AE47DC01B46B72C00331213 /* SavedImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D901B46B72C00331213 /* SavedImagesViewController.swift */; };
+		1AE47DC11B46B72C00331213 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE47D931B46B72C00331213 /* Images.xcassets */; };
+		1AE47DC21B46B72C00331213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D951B46B72C00331213 /* AppDelegate.swift */; };
+		1AE47DC31B46B72C00331213 /* Imgvue.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1AE47D971B46B72C00331213 /* Imgvue.entitlements */; };
+		1AE47DC51B46B72C00331213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AE47D9A1B46B72C00331213 /* Main.storyboard */; };
+		1AE47DC61B46B72C00331213 /* ImgvueColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47D9D1B46B72C00331213 /* ImgvueColors.swift */; };
+		1AE47DC71B46B72C00331213 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DA01B46B72C00331213 /* NSData+ImageContentType.m */; };
+		1AE47DC81B46B72C00331213 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DA21B46B72C00331213 /* SDImageCache.m */; };
+		1AE47DC91B46B72C00331213 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DA41B46B72C00331213 /* SDWebImageCompat.m */; };
+		1AE47DCA1B46B72C00331213 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DA61B46B72C00331213 /* SDWebImageDecoder.m */; };
+		1AE47DCB1B46B72C00331213 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DA81B46B72C00331213 /* SDWebImageDownloader.m */; };
+		1AE47DCC1B46B72C00331213 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DAA1B46B72C00331213 /* SDWebImageDownloaderOperation.m */; };
+		1AE47DCD1B46B72C00331213 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DAC1B46B72C00331213 /* SDWebImageManager.m */; };
+		1AE47DCE1B46B72C00331213 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DAF1B46B72C00331213 /* SDWebImagePrefetcher.m */; };
+		1AE47DCF1B46B72C00331213 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DB11B46B72C00331213 /* UIButton+WebCache.m */; };
+		1AE47DD01B46B72C00331213 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DB31B46B72C00331213 /* UIImage+GIF.m */; };
+		1AE47DD11B46B72C00331213 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DB51B46B72C00331213 /* UIImage+MultiFormat.m */; };
+		1AE47DD21B46B72C00331213 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DB71B46B72C00331213 /* UIImage+WebP.m */; };
+		1AE47DD31B46B72C00331213 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DB91B46B72C00331213 /* UIImageView+WebCache.m */; };
+		1AE47DD41B46B72C00331213 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE47DBB1B46B72C00331213 /* ImageCollectionViewCell.swift */; };
+		839576541969275D0033B974 /* ImgvueKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839576491969275D0033B974 /* ImgvueKit.framework */; };
+		8395765E1969275D0033B974 /* ImgvueKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 839576491969275D0033B974 /* ImgvueKit.framework */; };
+		8395765F1969275D0033B974 /* ImgvueKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 839576491969275D0033B974 /* ImgvueKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A843FB11B4B256C001A32F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839575AB196925690033B974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A843FA81B4B256C001A32F3;
+			remoteInfo = "Imgvue Upload";
+		};
+		1AA30DC51B51900100A85C63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839575AB196925690033B974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AA30DB71B51900100A85C63;
+			remoteInfo = "Imgvue Filters";
+		};
+		839575C8196925690033B974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839575AB196925690033B974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839575B2196925690033B974;
+			remoteInfo = Imgvue;
+		};
+		839576551969275D0033B974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839575AB196925690033B974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839576481969275D0033B974;
+			remoteInfo = ImgvueKit;
+		};
+		8395765C1969275D0033B974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839575AB196925690033B974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839576481969275D0033B974;
+			remoteInfo = ImgvueKit;
+		};
+		839576601969275D0033B974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839575AB196925690033B974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839576481969275D0033B974;
+			remoteInfo = ImgvueKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A843FB71B4B256C001A32F3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1AA30DC71B51900100A85C63 /* Imgvue Filters.appex in Embed App Extensions */,
+				1A843FB31B4B256C001A32F3 /* Imgvue Upload.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839575FA1969260A0033B974 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8395765F1969275D0033B974 /* ImgvueKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A843FA91B4B256C001A32F3 /* Imgvue Upload.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Imgvue Upload.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A843FB91B4B25D5001A32F3 /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		1A843FBB1B4B25D5001A32F3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A843FBD1B4B25D5001A32F3 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		1A843FC11B4B2658001A32F3 /* Imgvue Upload.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Imgvue Upload.entitlements"; sourceTree = "<group>"; };
+		1A843FC41B4C83AF001A32F3 /* Extension-Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Extension-Images.xcassets"; sourceTree = "<group>"; };
+		1AA30DB81B51900100A85C63 /* Imgvue Filters.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Imgvue Filters.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA30DBA1B51900100A85C63 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		1AA30DBC1B51900100A85C63 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		1AA30DCD1B51909800A85C63 /* PhotoEditingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoEditingViewController.swift; sourceTree = "<group>"; };
+		1AA30DCF1B51909800A85C63 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA30DD11B51909800A85C63 /* MainInterface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		1AE47D6C1B46B70700331213 /* ImgvueKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgvueKitTests.swift; sourceTree = "<group>"; };
+		1AE47D6E1B46B70700331213 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE47D731B46B71100331213 /* ImageFilterService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilterService.swift; sourceTree = "<group>"; };
+		1AE47D741B46B71100331213 /* ImgurImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgurImage.swift; sourceTree = "<group>"; };
+		1AE47D751B46B71100331213 /* ImgurService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgurService.swift; sourceTree = "<group>"; };
+		1AE47D761B46B71100331213 /* ImgvueKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgvueKit.h; sourceTree = "<group>"; };
+		1AE47D781B46B71100331213 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE47D7A1B46B71100331213 /* SavedImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedImageService.swift; sourceTree = "<group>"; };
+		1AE47D7B1B46B71100331213 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		1AE47D851B46B72000331213 /* ImgvueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgvueTests.swift; sourceTree = "<group>"; };
+		1AE47D871B46B72000331213 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE47D8C1B46B72C00331213 /* HotGalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotGalleryViewController.swift; sourceTree = "<group>"; };
+		1AE47D8D1B46B72C00331213 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1AE47D8E1B46B72C00331213 /* ImgurImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgurImageViewController.swift; sourceTree = "<group>"; };
+		1AE47D8F1B46B72C00331213 /* ProgressNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressNavigationController.swift; sourceTree = "<group>"; };
+		1AE47D901B46B72C00331213 /* SavedImagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedImagesViewController.swift; sourceTree = "<group>"; };
+		1AE47D931B46B72C00331213 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AE47D951B46B72C00331213 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AE47D961B46B72C00331213 /* Imgvue-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Imgvue-Bridging-Header.h"; sourceTree = "<group>"; };
+		1AE47D971B46B72C00331213 /* Imgvue.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Imgvue.entitlements; sourceTree = "<group>"; };
+		1AE47D981B46B72C00331213 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AE47D9B1B46B72C00331213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AE47D9D1B46B72C00331213 /* ImgvueColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImgvueColors.swift; sourceTree = "<group>"; };
+		1AE47D9F1B46B72C00331213 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		1AE47DA01B46B72C00331213 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		1AE47DA11B46B72C00331213 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		1AE47DA21B46B72C00331213 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		1AE47DA31B46B72C00331213 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		1AE47DA41B46B72C00331213 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		1AE47DA51B46B72C00331213 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		1AE47DA61B46B72C00331213 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		1AE47DA71B46B72C00331213 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		1AE47DA81B46B72C00331213 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		1AE47DA91B46B72C00331213 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		1AE47DAA1B46B72C00331213 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		1AE47DAB1B46B72C00331213 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		1AE47DAC1B46B72C00331213 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		1AE47DAD1B46B72C00331213 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		1AE47DAE1B46B72C00331213 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		1AE47DAF1B46B72C00331213 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		1AE47DB01B46B72C00331213 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		1AE47DB11B46B72C00331213 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		1AE47DB21B46B72C00331213 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		1AE47DB31B46B72C00331213 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		1AE47DB41B46B72C00331213 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		1AE47DB51B46B72C00331213 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		1AE47DB61B46B72C00331213 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		1AE47DB71B46B72C00331213 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		1AE47DB81B46B72C00331213 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		1AE47DB91B46B72C00331213 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		1AE47DBB1B46B72C00331213 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		839575B3196925690033B974 /* Imgvue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imgvue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839575C7196925690033B974 /* ImgvueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgvueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839576491969275D0033B974 /* ImgvueKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImgvueKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		839576531969275D0033B974 /* ImgvueKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImgvueKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A843FA61B4B256C001A32F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A843FC21B4B2685001A32F3 /* ImgvueKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA30DB51B51900100A85C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA30DBB1B51900100A85C63 /* PhotosUI.framework in Frameworks */,
+				1AA30DBD1B51900100A85C63 /* Photos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839575B0196925690033B974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8395765E1969275D0033B974 /* ImgvueKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839575C4196925690033B974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839576451969275D0033B974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839576501969275D0033B974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839576541969275D0033B974 /* ImgvueKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A843FAA1B4B256C001A32F3 /* Imgvue Upload */ = {
+			isa = PBXGroup;
+			children = (
+				1A843FC31B4C838C001A32F3 /* Resources */,
+				1A843FC11B4B2658001A32F3 /* Imgvue Upload.entitlements */,
+				1A843FB81B4B25D5001A32F3 /* Controller */,
+				1A843FBA1B4B25D5001A32F3 /* Supporting-Files */,
+				1A843FBC1B4B25D5001A32F3 /* User-Interface */,
+			);
+			path = "Imgvue Upload";
+			sourceTree = "<group>";
+		};
+		1A843FB81B4B25D5001A32F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A843FB91B4B25D5001A32F3 /* ShareViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A843FBA1B4B25D5001A32F3 /* Supporting-Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A843FBB1B4B25D5001A32F3 /* Info.plist */,
+			);
+			path = "Supporting-Files";
+			sourceTree = "<group>";
+		};
+		1A843FBC1B4B25D5001A32F3 /* User-Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1A843FBD1B4B25D5001A32F3 /* MainInterface.storyboard */,
+			);
+			path = "User-Interface";
+			sourceTree = "<group>";
+		};
+		1A843FC31B4C838C001A32F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A843FC41B4C83AF001A32F3 /* Extension-Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1AA30DB91B51900100A85C63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AA30DBA1B51900100A85C63 /* PhotosUI.framework */,
+				1AA30DBC1B51900100A85C63 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AA30DCB1B51909800A85C63 /* Imgvue Filters */ = {
+			isa = PBXGroup;
+			children = (
+				1AA30DCC1B51909800A85C63 /* Controller */,
+				1AA30DCE1B51909800A85C63 /* Supporting-Files */,
+				1AA30DD01B51909800A85C63 /* User-Interface */,
+			);
+			path = "Imgvue Filters";
+			sourceTree = "<group>";
+		};
+		1AA30DCC1B51909800A85C63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AA30DCD1B51909800A85C63 /* PhotoEditingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AA30DCE1B51909800A85C63 /* Supporting-Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA30DCF1B51909800A85C63 /* Info.plist */,
+			);
+			path = "Supporting-Files";
+			sourceTree = "<group>";
+		};
+		1AA30DD01B51909800A85C63 /* User-Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1AA30DD11B51909800A85C63 /* MainInterface.storyboard */,
+			);
+			path = "User-Interface";
+			sourceTree = "<group>";
+		};
+		1AE47D6A1B46B70700331213 /* ImgvueKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D6B1B46B70700331213 /* Source */,
+				1AE47D6D1B46B70700331213 /* Supporting-Files */,
+			);
+			path = ImgvueKitTests;
+			sourceTree = "<group>";
+		};
+		1AE47D6B1B46B70700331213 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D6C1B46B70700331213 /* ImgvueKitTests.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1AE47D6D1B46B70700331213 /* Supporting-Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D6E1B46B70700331213 /* Info.plist */,
+			);
+			path = "Supporting-Files";
+			sourceTree = "<group>";
+		};
+		1AE47D711B46B71100331213 /* ImgvueKit */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D721B46B71100331213 /* Imgur */,
+				1AE47D761B46B71100331213 /* ImgvueKit.h */,
+				1AE47D771B46B71100331213 /* Supporting-Files */,
+				1AE47D791B46B71100331213 /* Utilities */,
+			);
+			path = ImgvueKit;
+			sourceTree = "<group>";
+		};
+		1AE47D721B46B71100331213 /* Imgur */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D731B46B71100331213 /* ImageFilterService.swift */,
+				1AE47D741B46B71100331213 /* ImgurImage.swift */,
+				1AE47D751B46B71100331213 /* ImgurService.swift */,
+			);
+			path = Imgur;
+			sourceTree = "<group>";
+		};
+		1AE47D771B46B71100331213 /* Supporting-Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D781B46B71100331213 /* Info.plist */,
+			);
+			path = "Supporting-Files";
+			sourceTree = "<group>";
+		};
+		1AE47D791B46B71100331213 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D7A1B46B71100331213 /* SavedImageService.swift */,
+				1AE47D7B1B46B71100331213 /* SwiftyJSON.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1AE47D831B46B72000331213 /* ImgvueTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D841B46B72000331213 /* Source */,
+				1AE47D861B46B72000331213 /* Supporting-Files */,
+			);
+			path = ImgvueTests;
+			sourceTree = "<group>";
+		};
+		1AE47D841B46B72000331213 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D851B46B72000331213 /* ImgvueTests.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1AE47D861B46B72000331213 /* Supporting-Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D871B46B72000331213 /* Info.plist */,
+			);
+			path = "Supporting-Files";
+			sourceTree = "<group>";
+		};
+		1AE47D8A1B46B72C00331213 /* Imgvue */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D8B1B46B72C00331213 /* Controller */,
+				1AE47D911B46B72C00331213 /* Model */,
+				1AE47D921B46B72C00331213 /* Resources */,
+				1AE47D941B46B72C00331213 /* Supporting-Files */,
+				1AE47D991B46B72C00331213 /* User-Interface */,
+				1AE47D9C1B46B72C00331213 /* Utilities */,
+				1AE47DBA1B46B72C00331213 /* View */,
+			);
+			path = Imgvue;
+			sourceTree = "<group>";
+		};
+		1AE47D8B1B46B72C00331213 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D8C1B46B72C00331213 /* HotGalleryViewController.swift */,
+				1AE47D8D1B46B72C00331213 /* ImageViewController.swift */,
+				1AE47D8E1B46B72C00331213 /* ImgurImageViewController.swift */,
+				1AE47D8F1B46B72C00331213 /* ProgressNavigationController.swift */,
+				1AE47D901B46B72C00331213 /* SavedImagesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AE47D911B46B72C00331213 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AE47D921B46B72C00331213 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D931B46B72C00331213 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1AE47D941B46B72C00331213 /* Supporting-Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D951B46B72C00331213 /* AppDelegate.swift */,
+				1AE47D961B46B72C00331213 /* Imgvue-Bridging-Header.h */,
+				1AE47D971B46B72C00331213 /* Imgvue.entitlements */,
+				1AE47D981B46B72C00331213 /* Info.plist */,
+			);
+			path = "Supporting-Files";
+			sourceTree = "<group>";
+		};
+		1AE47D991B46B72C00331213 /* User-Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D9A1B46B72C00331213 /* Main.storyboard */,
+			);
+			path = "User-Interface";
+			sourceTree = "<group>";
+		};
+		1AE47D9C1B46B72C00331213 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D9D1B46B72C00331213 /* ImgvueColors.swift */,
+				1AE47D9E1B46B72C00331213 /* SDWebImage */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1AE47D9E1B46B72C00331213 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47D9F1B46B72C00331213 /* NSData+ImageContentType.h */,
+				1AE47DA01B46B72C00331213 /* NSData+ImageContentType.m */,
+				1AE47DA11B46B72C00331213 /* SDImageCache.h */,
+				1AE47DA21B46B72C00331213 /* SDImageCache.m */,
+				1AE47DA31B46B72C00331213 /* SDWebImageCompat.h */,
+				1AE47DA41B46B72C00331213 /* SDWebImageCompat.m */,
+				1AE47DA51B46B72C00331213 /* SDWebImageDecoder.h */,
+				1AE47DA61B46B72C00331213 /* SDWebImageDecoder.m */,
+				1AE47DA71B46B72C00331213 /* SDWebImageDownloader.h */,
+				1AE47DA81B46B72C00331213 /* SDWebImageDownloader.m */,
+				1AE47DA91B46B72C00331213 /* SDWebImageDownloaderOperation.h */,
+				1AE47DAA1B46B72C00331213 /* SDWebImageDownloaderOperation.m */,
+				1AE47DAB1B46B72C00331213 /* SDWebImageManager.h */,
+				1AE47DAC1B46B72C00331213 /* SDWebImageManager.m */,
+				1AE47DAD1B46B72C00331213 /* SDWebImageOperation.h */,
+				1AE47DAE1B46B72C00331213 /* SDWebImagePrefetcher.h */,
+				1AE47DAF1B46B72C00331213 /* SDWebImagePrefetcher.m */,
+				1AE47DB01B46B72C00331213 /* UIButton+WebCache.h */,
+				1AE47DB11B46B72C00331213 /* UIButton+WebCache.m */,
+				1AE47DB21B46B72C00331213 /* UIImage+GIF.h */,
+				1AE47DB31B46B72C00331213 /* UIImage+GIF.m */,
+				1AE47DB41B46B72C00331213 /* UIImage+MultiFormat.h */,
+				1AE47DB51B46B72C00331213 /* UIImage+MultiFormat.m */,
+				1AE47DB61B46B72C00331213 /* UIImage+WebP.h */,
+				1AE47DB71B46B72C00331213 /* UIImage+WebP.m */,
+				1AE47DB81B46B72C00331213 /* UIImageView+WebCache.h */,
+				1AE47DB91B46B72C00331213 /* UIImageView+WebCache.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		1AE47DBA1B46B72C00331213 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AE47DBB1B46B72C00331213 /* ImageCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		839575AA196925690033B974 = {
+			isa = PBXGroup;
+			children = (
+				1AA30DB91B51900100A85C63 /* Frameworks */,
+				1AE47D8A1B46B72C00331213 /* Imgvue */,
+				1AA30DCB1B51909800A85C63 /* Imgvue Filters */,
+				1A843FAA1B4B256C001A32F3 /* Imgvue Upload */,
+				1AE47D711B46B71100331213 /* ImgvueKit */,
+				1AE47D6A1B46B70700331213 /* ImgvueKitTests */,
+				1AE47D831B46B72000331213 /* ImgvueTests */,
+				839575B4196925690033B974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839575B4196925690033B974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839575B3196925690033B974 /* Imgvue.app */,
+				839575C7196925690033B974 /* ImgvueTests.xctest */,
+				839576491969275D0033B974 /* ImgvueKit.framework */,
+				839576531969275D0033B974 /* ImgvueKitTests.xctest */,
+				1A843FA91B4B256C001A32F3 /* Imgvue Upload.appex */,
+				1AA30DB81B51900100A85C63 /* Imgvue Filters.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		839576461969275D0033B974 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE47D7F1B46B71100331213 /* ImgvueKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A843FA81B4B256C001A32F3 /* Imgvue Upload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A843FB41B4B256C001A32F3 /* Build configuration list for PBXNativeTarget "Imgvue Upload" */;
+			buildPhases = (
+				1A843FA51B4B256C001A32F3 /* Sources */,
+				1A843FA61B4B256C001A32F3 /* Frameworks */,
+				1A843FA71B4B256C001A32F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Imgvue Upload";
+			productName = "Imgvue Upload";
+			productReference = 1A843FA91B4B256C001A32F3 /* Imgvue Upload.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1AA30DB71B51900100A85C63 /* Imgvue Filters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA30DCA1B51900200A85C63 /* Build configuration list for PBXNativeTarget "Imgvue Filters" */;
+			buildPhases = (
+				1AA30DB41B51900100A85C63 /* Sources */,
+				1AA30DB51B51900100A85C63 /* Frameworks */,
+				1AA30DB61B51900100A85C63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Imgvue Filters";
+			productName = "Imgvue Filters";
+			productReference = 1AA30DB81B51900100A85C63 /* Imgvue Filters.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		839575B2196925690033B974 /* Imgvue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839575D1196925690033B974 /* Build configuration list for PBXNativeTarget "Imgvue" */;
+			buildPhases = (
+				839575AF196925690033B974 /* Sources */,
+				839575B0196925690033B974 /* Frameworks */,
+				839575B1196925690033B974 /* Resources */,
+				839575FA1969260A0033B974 /* Embed Frameworks */,
+				1A843FB71B4B256C001A32F3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8395765D1969275D0033B974 /* PBXTargetDependency */,
+				839576611969275D0033B974 /* PBXTargetDependency */,
+				1A843FB21B4B256C001A32F3 /* PBXTargetDependency */,
+				1AA30DC61B51900100A85C63 /* PBXTargetDependency */,
+			);
+			name = Imgvue;
+			productName = Imgvue;
+			productReference = 839575B3196925690033B974 /* Imgvue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		839575C6196925690033B974 /* ImgvueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839575D4196925690033B974 /* Build configuration list for PBXNativeTarget "ImgvueTests" */;
+			buildPhases = (
+				839575C3196925690033B974 /* Sources */,
+				839575C4196925690033B974 /* Frameworks */,
+				839575C5196925690033B974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839575C9196925690033B974 /* PBXTargetDependency */,
+			);
+			name = ImgvueTests;
+			productName = ImgvueTests;
+			productReference = 839575C7196925690033B974 /* ImgvueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		839576481969275D0033B974 /* ImgvueKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839576621969275D0033B974 /* Build configuration list for PBXNativeTarget "ImgvueKit" */;
+			buildPhases = (
+				839576441969275D0033B974 /* Sources */,
+				839576451969275D0033B974 /* Frameworks */,
+				839576461969275D0033B974 /* Headers */,
+				839576471969275D0033B974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImgvueKit;
+			productName = ImgvueKit;
+			productReference = 839576491969275D0033B974 /* ImgvueKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		839576521969275D0033B974 /* ImgvueKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839576651969275D0033B974 /* Build configuration list for PBXNativeTarget "ImgvueKitTests" */;
+			buildPhases = (
+				8395764F1969275D0033B974 /* Sources */,
+				839576501969275D0033B974 /* Frameworks */,
+				839576511969275D0033B974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839576561969275D0033B974 /* PBXTargetDependency */,
+			);
+			name = ImgvueKitTests;
+			productName = ImgvueKitTests;
+			productReference = 839576531969275D0033B974 /* ImgvueKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839575AB196925690033B974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ray Wenderlich LLC";
+				TargetAttributes = {
+					1A843FA81B4B256C001A32F3 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = ZFDEX86BMA;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					1AA30DB71B51900100A85C63 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = ZFDEX86BMA;
+					};
+					839575B2196925690033B974 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZFDEX86BMA;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					839575C6196925690033B974 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 839575B2196925690033B974;
+					};
+					839576481969275D0033B974 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					839576521969275D0033B974 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 839576481969275D0033B974;
+					};
+				};
+			};
+			buildConfigurationList = 839575AE196925690033B974 /* Build configuration list for PBXProject "Imgvue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839575AA196925690033B974;
+			productRefGroup = 839575B4196925690033B974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839575B2196925690033B974 /* Imgvue */,
+				839575C6196925690033B974 /* ImgvueTests */,
+				839576481969275D0033B974 /* ImgvueKit */,
+				839576521969275D0033B974 /* ImgvueKitTests */,
+				1A843FA81B4B256C001A32F3 /* Imgvue Upload */,
+				1AA30DB71B51900100A85C63 /* Imgvue Filters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A843FA71B4B256C001A32F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A843FC01B4B25D5001A32F3 /* MainInterface.storyboard in Resources */,
+				1A843FC51B4C83AF001A32F3 /* Extension-Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA30DB61B51900100A85C63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA30DD41B51909800A85C63 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839575B1196925690033B974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE47DC31B46B72C00331213 /* Imgvue.entitlements in Resources */,
+				1AE47DC11B46B72C00331213 /* Images.xcassets in Resources */,
+				1AE47DC51B46B72C00331213 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839575C5196925690033B974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839576471969275D0033B974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839576511969275D0033B974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A843FA51B4B256C001A32F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A843FBE1B4B25D5001A32F3 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA30DB41B51900100A85C63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA30DD21B51909800A85C63 /* PhotoEditingViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839575AF196925690033B974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE47DC21B46B72C00331213 /* AppDelegate.swift in Sources */,
+				1AE47DCD1B46B72C00331213 /* SDWebImageManager.m in Sources */,
+				1AE47DD31B46B72C00331213 /* UIImageView+WebCache.m in Sources */,
+				1AE47DD41B46B72C00331213 /* ImageCollectionViewCell.swift in Sources */,
+				1AE47DC81B46B72C00331213 /* SDImageCache.m in Sources */,
+				1AE47DCC1B46B72C00331213 /* SDWebImageDownloaderOperation.m in Sources */,
+				1AE47DBE1B46B72C00331213 /* ImgurImageViewController.swift in Sources */,
+				1AE47DCF1B46B72C00331213 /* UIButton+WebCache.m in Sources */,
+				1AE47DC71B46B72C00331213 /* NSData+ImageContentType.m in Sources */,
+				1AE47DCE1B46B72C00331213 /* SDWebImagePrefetcher.m in Sources */,
+				1AE47DCB1B46B72C00331213 /* SDWebImageDownloader.m in Sources */,
+				1AE47DC01B46B72C00331213 /* SavedImagesViewController.swift in Sources */,
+				1AE47DD21B46B72C00331213 /* UIImage+WebP.m in Sources */,
+				1AE47DCA1B46B72C00331213 /* SDWebImageDecoder.m in Sources */,
+				1AE47DBD1B46B72C00331213 /* ImageViewController.swift in Sources */,
+				1AE47DC61B46B72C00331213 /* ImgvueColors.swift in Sources */,
+				1AE47DC91B46B72C00331213 /* SDWebImageCompat.m in Sources */,
+				1AE47DBF1B46B72C00331213 /* ProgressNavigationController.swift in Sources */,
+				1AE47DBC1B46B72C00331213 /* HotGalleryViewController.swift in Sources */,
+				1AE47DD11B46B72C00331213 /* UIImage+MultiFormat.m in Sources */,
+				1AE47DD01B46B72C00331213 /* UIImage+GIF.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839575C3196925690033B974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE47D881B46B72000331213 /* ImgvueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839576441969275D0033B974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE47D7D1B46B71100331213 /* ImgurImage.swift in Sources */,
+				1AE47D811B46B71100331213 /* SavedImageService.swift in Sources */,
+				1AE47D7C1B46B71100331213 /* ImageFilterService.swift in Sources */,
+				1AE47D821B46B71100331213 /* SwiftyJSON.swift in Sources */,
+				1AE47D7E1B46B71100331213 /* ImgurService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8395764F1969275D0033B974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE47D6F1B46B70700331213 /* ImgvueKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A843FB21B4B256C001A32F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A843FA81B4B256C001A32F3 /* Imgvue Upload */;
+			targetProxy = 1A843FB11B4B256C001A32F3 /* PBXContainerItemProxy */;
+		};
+		1AA30DC61B51900100A85C63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AA30DB71B51900100A85C63 /* Imgvue Filters */;
+			targetProxy = 1AA30DC51B51900100A85C63 /* PBXContainerItemProxy */;
+		};
+		839575C9196925690033B974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839575B2196925690033B974 /* Imgvue */;
+			targetProxy = 839575C8196925690033B974 /* PBXContainerItemProxy */;
+		};
+		839576561969275D0033B974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839576481969275D0033B974 /* ImgvueKit */;
+			targetProxy = 839576551969275D0033B974 /* PBXContainerItemProxy */;
+		};
+		8395765D1969275D0033B974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839576481969275D0033B974 /* ImgvueKit */;
+			targetProxy = 8395765C1969275D0033B974 /* PBXContainerItemProxy */;
+		};
+		839576611969275D0033B974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839576481969275D0033B974 /* ImgvueKit */;
+			targetProxy = 839576601969275D0033B974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AE47D9A1B46B72C00331213 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AE47D9B1B46B72C00331213 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A843FB51B4B256C001A32F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Imgvue Upload/Imgvue Upload.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Imgvue Upload/Supporting-Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1A843FB61B4B256C001A32F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Imgvue Upload/Imgvue Upload.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Imgvue Upload/Supporting-Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1AA30DC81B51900200A85C63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Imgvue Filters/Supporting-Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1AA30DC91B51900200A85C63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Imgvue Filters/Supporting-Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		839575CF196925690033B974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		839575D0196925690033B974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839575D2196925690033B974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Imgvue/Supporting-Files/Imgvue.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Imgvue/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Imgvue/Supporting-Files/Imgvue-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		839575D3196925690033B974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Imgvue/Supporting-Files/Imgvue.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Imgvue/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Imgvue/Supporting-Files/Imgvue-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		839575D5196925690033B974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Imgvue.app/Imgvue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImgvueTests/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		839575D6196925690033B974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Imgvue.app/Imgvue";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImgvueTests/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		839576631969275D0033B974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/ImgvueKit/Supporting-Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		839576641969275D0033B974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/ImgvueKit/Supporting-Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		839576661969275D0033B974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImgvueKitTests/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		839576671969275D0033B974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImgvueKitTests/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A843FB41B4B256C001A32F3 /* Build configuration list for PBXNativeTarget "Imgvue Upload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A843FB51B4B256C001A32F3 /* Debug */,
+				1A843FB61B4B256C001A32F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA30DCA1B51900200A85C63 /* Build configuration list for PBXNativeTarget "Imgvue Filters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA30DC81B51900200A85C63 /* Debug */,
+				1AA30DC91B51900200A85C63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839575AE196925690033B974 /* Build configuration list for PBXProject "Imgvue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839575CF196925690033B974 /* Debug */,
+				839575D0196925690033B974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839575D1196925690033B974 /* Build configuration list for PBXNativeTarget "Imgvue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839575D2196925690033B974 /* Debug */,
+				839575D3196925690033B974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839575D4196925690033B974 /* Build configuration list for PBXNativeTarget "ImgvueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839575D5196925690033B974 /* Debug */,
+				839575D6196925690033B974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839576621969275D0033B974 /* Build configuration list for PBXNativeTarget "ImgvueKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839576631969275D0033B974 /* Debug */,
+				839576641969275D0033B974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839576651969275D0033B974 /* Build configuration list for PBXNativeTarget "ImgvueKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839576661969275D0033B974 /* Debug */,
+				839576671969275D0033B974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839575AB196925690033B974 /* Project object */;
+}

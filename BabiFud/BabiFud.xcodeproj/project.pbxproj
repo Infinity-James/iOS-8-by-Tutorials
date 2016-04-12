@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A172A021B73C4E100010231 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729ED1B73C4E100010231 /* DetailViewController.swift */; };
+		1A172A031B73C4E100010231 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729EE1B73C4E100010231 /* MapViewController.swift */; };
+		1A172A041B73C4E100010231 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729EF1B73C4E100010231 /* MasterViewController.swift */; };
+		1A172A051B73C4E100010231 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729F01B73C4E100010231 /* NotesTableViewController.swift */; };
+		1A172A061B73C4E100010231 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729F11B73C4E100010231 /* NotesViewController.swift */; };
+		1A172A071B73C4E100010231 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729F21B73C4E100010231 /* SettingsViewController.swift */; };
+		1A172A081B73C4E100010231 /* Establishment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729F41B73C4E100010231 /* Establishment.swift */; };
+		1A172A091B73C4E100010231 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729F51B73C4E100010231 /* Model.swift */; };
+		1A172A0A1B73C4E100010231 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729F61B73C4E100010231 /* UserInfo.swift */; };
+		1A172A0B1B73C4E100010231 /* Workaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729F71B73C4E100010231 /* Workaround.swift */; };
+		1A172A0C1B73C4E100010231 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1729F91B73C4E100010231 /* Images.xcassets */; };
+		1A172A0D1B73C4E100010231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1729FB1B73C4E100010231 /* AppDelegate.swift */; };
+		1A172A0E1B73C4E100010231 /* BabiFood.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 1A1729FC1B73C4E100010231 /* BabiFood.entitlements */; };
+		1A172A101B73C4E100010231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1729FF1B73C4E100010231 /* Main.storyboard */; };
+		1A172A111B73C4E100010231 /* EstablishmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A172A011B73C4E100010231 /* EstablishmentCell.swift */; };
+		1A172A241B73C4EB00010231 /* Checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A172A141B73C4EB00010231 /* Checked.png */; };
+		1A172A251B73C4EB00010231 /* Checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A172A151B73C4EB00010231 /* Checked@2x.png */; };
+		1A172A261B73C4EB00010231 /* Checked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A172A161B73C4EB00010231 /* Checked@3x.png */; };
+		1A172A271B73C4EB00010231 /* Unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A172A171B73C4EB00010231 /* Unchecked.png */; };
+		1A172A281B73C4EB00010231 /* Unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A172A181B73C4EB00010231 /* Unchecked@2x.png */; };
+		1A172A291B73C4EB00010231 /* Unchecked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A172A191B73C4EB00010231 /* Unchecked@3x.png */; };
+		1A172A2B1B73C4EB00010231 /* UIWidgets.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A172A1C1B73C4EB00010231 /* UIWidgets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A172A2C1B73C4EB00010231 /* BadgeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A172A1E1B73C4EB00010231 /* BadgeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A172A2D1B73C4EB00010231 /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A172A1F1B73C4EB00010231 /* BadgeView.m */; };
+		1A172A2E1B73C4EB00010231 /* CheckedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A172A201B73C4EB00010231 /* CheckedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A172A2F1B73C4EB00010231 /* CheckedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A172A211B73C4EB00010231 /* CheckedButton.m */; };
+		1A172A301B73C4EB00010231 /* StarRatingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A172A221B73C4EB00010231 /* StarRatingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A172A311B73C4EB00010231 /* StarRatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A172A231B73C4EB00010231 /* StarRatingControl.m */; };
+		1A172A331B73C76B00010231 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A172A321B73C76B00010231 /* CloudKit.framework */; };
+		27B38ED01977637200385025 /* UIWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B38EBB1977637200385025 /* UIWidgets.framework */; };
+		27B38ED11977637200385025 /* UIWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27B38EBB1977637200385025 /* UIWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27B38ECE1977637200385025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27DA776E19672452005FFA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27B38EBA1977637200385025;
+			remoteInfo = UIWidgets;
+		};
+		27B38ED21977637200385025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27DA776E19672452005FFA76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27B38EBA1977637200385025;
+			remoteInfo = UIWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27B38ED71977637200385025 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27B38ED11977637200385025 /* UIWidgets.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A1729ED1B73C4E100010231 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1A1729EE1B73C4E100010231 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1A1729EF1B73C4E100010231 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		1A1729F01B73C4E100010231 /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		1A1729F11B73C4E100010231 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		1A1729F21B73C4E100010231 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1A1729F41B73C4E100010231 /* Establishment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Establishment.swift; sourceTree = "<group>"; };
+		1A1729F51B73C4E100010231 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1A1729F61B73C4E100010231 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		1A1729F71B73C4E100010231 /* Workaround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workaround.swift; sourceTree = "<group>"; };
+		1A1729F91B73C4E100010231 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A1729FB1B73C4E100010231 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A1729FC1B73C4E100010231 /* BabiFood.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = BabiFood.entitlements; sourceTree = "<group>"; };
+		1A1729FD1B73C4E100010231 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1729FF1B73C4E100010231 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1A172A011B73C4E100010231 /* EstablishmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstablishmentCell.swift; sourceTree = "<group>"; };
+		1A172A141B73C4EB00010231 /* Checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Checked.png; sourceTree = "<group>"; };
+		1A172A151B73C4EB00010231 /* Checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checked@2x.png"; sourceTree = "<group>"; };
+		1A172A161B73C4EB00010231 /* Checked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Checked@3x.png"; sourceTree = "<group>"; };
+		1A172A171B73C4EB00010231 /* Unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unchecked.png; sourceTree = "<group>"; };
+		1A172A181B73C4EB00010231 /* Unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unchecked@2x.png"; sourceTree = "<group>"; };
+		1A172A191B73C4EB00010231 /* Unchecked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Unchecked@3x.png"; sourceTree = "<group>"; };
+		1A172A1B1B73C4EB00010231 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A172A1C1B73C4EB00010231 /* UIWidgets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWidgets.h; sourceTree = "<group>"; };
+		1A172A1E1B73C4EB00010231 /* BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeView.h; sourceTree = "<group>"; };
+		1A172A1F1B73C4EB00010231 /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeView.m; sourceTree = "<group>"; };
+		1A172A201B73C4EB00010231 /* CheckedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckedButton.h; sourceTree = "<group>"; };
+		1A172A211B73C4EB00010231 /* CheckedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckedButton.m; sourceTree = "<group>"; };
+		1A172A221B73C4EB00010231 /* StarRatingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingControl.h; sourceTree = "<group>"; };
+		1A172A231B73C4EB00010231 /* StarRatingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingControl.m; sourceTree = "<group>"; };
+		1A172A321B73C76B00010231 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		27B38EBB1977637200385025 /* UIWidgets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIWidgets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DA777619672452005FFA76 /* BabiFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabiFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27B38EB71977637200385025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DA777319672452005FFA76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B38ED01977637200385025 /* UIWidgets.framework in Frameworks */,
+				1A172A331B73C76B00010231 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1729EB1B73C4E100010231 /* BabiFud */ = {
+			isa = PBXGroup;
+			children = (
+				1A1729EC1B73C4E100010231 /* Controller */,
+				1A1729F31B73C4E100010231 /* Model */,
+				1A1729F81B73C4E100010231 /* Resources */,
+				1A1729FA1B73C4E100010231 /* Supporting-Files */,
+				1A1729FE1B73C4E100010231 /* User-Interface */,
+				1A172A001B73C4E100010231 /* View */,
+			);
+			path = BabiFud;
+			sourceTree = "<group>";
+		};
+		1A1729EC1B73C4E100010231 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A1729ED1B73C4E100010231 /* DetailViewController.swift */,
+				1A1729EE1B73C4E100010231 /* MapViewController.swift */,
+				1A1729EF1B73C4E100010231 /* MasterViewController.swift */,
+				1A1729F01B73C4E100010231 /* NotesTableViewController.swift */,
+				1A1729F11B73C4E100010231 /* NotesViewController.swift */,
+				1A1729F21B73C4E100010231 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A1729F31B73C4E100010231 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A1729F41B73C4E100010231 /* Establishment.swift */,
+				1A1729F51B73C4E100010231 /* Model.swift */,
+				1A1729F61B73C4E100010231 /* UserInfo.swift */,
+				1A1729F71B73C4E100010231 /* Workaround.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A1729F81B73C4E100010231 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A1729F91B73C4E100010231 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A1729FA1B73C4E100010231 /* Supporting-Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A1729FB1B73C4E100010231 /* AppDelegate.swift */,
+				1A1729FC1B73C4E100010231 /* BabiFood.entitlements */,
+				1A1729FD1B73C4E100010231 /* Info.plist */,
+			);
+			path = "Supporting-Files";
+			sourceTree = "<group>";
+		};
+		1A1729FE1B73C4E100010231 /* User-Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1A1729FF1B73C4E100010231 /* Main.storyboard */,
+			);
+			path = "User-Interface";
+			sourceTree = "<group>";
+		};
+		1A172A001B73C4E100010231 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A172A011B73C4E100010231 /* EstablishmentCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A172A121B73C4EB00010231 /* UIWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				1A172A131B73C4EB00010231 /* Resources */,
+				1A172A1A1B73C4EB00010231 /* Supporting-Files */,
+				1A172A1C1B73C4EB00010231 /* UIWidgets.h */,
+				1A172A1D1B73C4EB00010231 /* View */,
+			);
+			path = UIWidgets;
+			sourceTree = "<group>";
+		};
+		1A172A131B73C4EB00010231 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A172A141B73C4EB00010231 /* Checked.png */,
+				1A172A151B73C4EB00010231 /* Checked@2x.png */,
+				1A172A161B73C4EB00010231 /* Checked@3x.png */,
+				1A172A171B73C4EB00010231 /* Unchecked.png */,
+				1A172A181B73C4EB00010231 /* Unchecked@2x.png */,
+				1A172A191B73C4EB00010231 /* Unchecked@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1A172A1A1B73C4EB00010231 /* Supporting-Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A172A1B1B73C4EB00010231 /* Info.plist */,
+			);
+			path = "Supporting-Files";
+			sourceTree = "<group>";
+		};
+		1A172A1D1B73C4EB00010231 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A172A1E1B73C4EB00010231 /* BadgeView.h */,
+				1A172A1F1B73C4EB00010231 /* BadgeView.m */,
+				1A172A201B73C4EB00010231 /* CheckedButton.h */,
+				1A172A211B73C4EB00010231 /* CheckedButton.m */,
+				1A172A221B73C4EB00010231 /* StarRatingControl.h */,
+				1A172A231B73C4EB00010231 /* StarRatingControl.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27DA776D19672452005FFA76 = {
+			isa = PBXGroup;
+			children = (
+				1A172A321B73C76B00010231 /* CloudKit.framework */,
+				1A1729EB1B73C4E100010231 /* BabiFud */,
+				27DA777719672452005FFA76 /* Products */,
+				1A172A121B73C4EB00010231 /* UIWidgets */,
+			);
+			sourceTree = "<group>";
+		};
+		27DA777719672452005FFA76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27DA777619672452005FFA76 /* BabiFood.app */,
+				27B38EBB1977637200385025 /* UIWidgets.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		27B38EB81977637200385025 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A172A2E1B73C4EB00010231 /* CheckedButton.h in Headers */,
+				1A172A301B73C4EB00010231 /* StarRatingControl.h in Headers */,
+				1A172A2B1B73C4EB00010231 /* UIWidgets.h in Headers */,
+				1A172A2C1B73C4EB00010231 /* BadgeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27B38EBA1977637200385025 /* UIWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27B38ED41977637200385025 /* Build configuration list for PBXNativeTarget "UIWidgets" */;
+			buildPhases = (
+				27B38EB61977637200385025 /* Sources */,
+				27B38EB71977637200385025 /* Frameworks */,
+				27B38EB81977637200385025 /* Headers */,
+				27B38EB91977637200385025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWidgets;
+			productName = UIWidgets;
+			productReference = 27B38EBB1977637200385025 /* UIWidgets.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27DA777519672452005FFA76 /* BabiFud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DA779419672452005FFA76 /* Build configuration list for PBXNativeTarget "BabiFud" */;
+			buildPhases = (
+				27DA777219672452005FFA76 /* Sources */,
+				27DA777319672452005FFA76 /* Frameworks */,
+				27DA777419672452005FFA76 /* Resources */,
+				27B38ED71977637200385025 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27B38ECF1977637200385025 /* PBXTargetDependency */,
+				27B38ED31977637200385025 /* PBXTargetDependency */,
+			);
+			name = BabiFud;
+			productName = "BabiFüd";
+			productReference = 27DA777619672452005FFA76 /* BabiFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27DA776E19672452005FFA76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = raywenderlich;
+				TargetAttributes = {
+					27B38EBA1977637200385025 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZFDEX86BMA;
+					};
+					27DA777519672452005FFA76 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZFDEX86BMA;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 27DA777119672452005FFA76 /* Build configuration list for PBXProject "BabiFud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27DA776D19672452005FFA76;
+			productRefGroup = 27DA777719672452005FFA76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27DA777519672452005FFA76 /* BabiFud */,
+				27B38EBA1977637200385025 /* UIWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27B38EB91977637200385025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A172A251B73C4EB00010231 /* Checked@2x.png in Resources */,
+				1A172A261B73C4EB00010231 /* Checked@3x.png in Resources */,
+				1A172A291B73C4EB00010231 /* Unchecked@3x.png in Resources */,
+				1A172A281B73C4EB00010231 /* Unchecked@2x.png in Resources */,
+				1A172A271B73C4EB00010231 /* Unchecked.png in Resources */,
+				1A172A241B73C4EB00010231 /* Checked.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DA777419672452005FFA76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A172A0C1B73C4E100010231 /* Images.xcassets in Resources */,
+				1A172A0E1B73C4E100010231 /* BabiFood.entitlements in Resources */,
+				1A172A101B73C4E100010231 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27B38EB61977637200385025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A172A311B73C4EB00010231 /* StarRatingControl.m in Sources */,
+				1A172A2D1B73C4EB00010231 /* BadgeView.m in Sources */,
+				1A172A2F1B73C4EB00010231 /* CheckedButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27DA777219672452005FFA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A172A0D1B73C4E100010231 /* AppDelegate.swift in Sources */,
+				1A172A111B73C4E100010231 /* EstablishmentCell.swift in Sources */,
+				1A172A021B73C4E100010231 /* DetailViewController.swift in Sources */,
+				1A172A0B1B73C4E100010231 /* Workaround.swift in Sources */,
+				1A172A061B73C4E100010231 /* NotesViewController.swift in Sources */,
+				1A172A051B73C4E100010231 /* NotesTableViewController.swift in Sources */,
+				1A172A031B73C4E100010231 /* MapViewController.swift in Sources */,
+				1A172A041B73C4E100010231 /* MasterViewController.swift in Sources */,
+				1A172A071B73C4E100010231 /* SettingsViewController.swift in Sources */,
+				1A172A081B73C4E100010231 /* Establishment.swift in Sources */,
+				1A172A0A1B73C4E100010231 /* UserInfo.swift in Sources */,
+				1A172A091B73C4E100010231 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27B38ECF1977637200385025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27B38EBA1977637200385025 /* UIWidgets */;
+			targetProxy = 27B38ECE1977637200385025 /* PBXContainerItemProxy */;
+		};
+		27B38ED31977637200385025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27B38EBA1977637200385025 /* UIWidgets */;
+			targetProxy = 27B38ED21977637200385025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27B38ED51977637200385025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/UIWidgets/Supporting-Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		27B38ED61977637200385025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/UIWidgets/Supporting-Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		27DA779219672452005FFA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27DA779319672452005FFA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27DA779519672452005FFA76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "BabiFud/Supporting-Files/BabiFood.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/BabiFud/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = BabiFood;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		27DA779619672452005FFA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "BabiFud/Supporting-Files/BabiFood.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/BabiFud/Supporting-Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = BabiFood;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27B38ED41977637200385025 /* Build configuration list for PBXNativeTarget "UIWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27B38ED51977637200385025 /* Debug */,
+				27B38ED61977637200385025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27DA777119672452005FFA76 /* Build configuration list for PBXProject "BabiFud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DA779219672452005FFA76 /* Debug */,
+				27DA779319672452005FFA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27DA779419672452005FFA76 /* Build configuration list for PBXNativeTarget "BabiFud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DA779519672452005FFA76 /* Debug */,
+				27DA779619672452005FFA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27DA776E19672452005FFA76 /* Project object */;
+}
